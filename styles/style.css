@@ -194,7 +194,7 @@ body {
 }
 
 .card {
-	border-radius: 30%;
+	border-radius: 30px;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -278,6 +278,6 @@ body {
 	gap: 16px;
 }
 .footer__link {
-	color: white;
+	color: #f5f5f5;
 	text-decoration-line: none;
 }
