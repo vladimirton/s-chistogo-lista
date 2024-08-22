@@ -4,23 +4,18 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>С чистого листа</title>
-		<link rel="stylesheet" href="fonts/fonts.css" />
-		<link rel="stylesheet" href="styles/style.css" />
+		<link rel="stylesheet" href="./fonts/fonts.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
 	</head>
 	<body>
-		<header class="content-section content-section_theme_dark header">
+		<header class="header content-section content-section_theme_dark">
 			<a class="header__logo"
-				><img
-					class="header__logo-image"
-					src="images/logo.svg"
-					alt="logo"
-					width="79"
-					height="16"
+				><img class="header__logo-image" src="./images/logo.svg" alt="logo"
 			/></a>
 			<nav class="header__menu">
 				<ul class="header__menu-list">
 					<li class="header__menu-item header__menu-item_active">
-						<a class="header__menu-link" href="#0">Главная</a>
+						<a class="header__menu-link">Главная</a>
 					</li>
 					<li class="header__menu-item">
 						<a class="header__menu-link" href="#0">О нас</a>
@@ -32,35 +27,38 @@
 			</nav>
 		</header>
 		<main>
-			<section class="content-section content-section_theme_dark cover">
+			<section class="cover content-section content-section_theme_dark">
 				<h1 class="cover-title">
 					<span class="accent-span">С</span
 					><span class="accent-span text-center">чистого</span
 					><span class="accent-span text-right">листа</span>
 				</h1>
 			</section>
-			<section class="content-section content-section_theme_dark intro">
+			<section class="intro content-section content-section_theme_dark">
 				<header class="intro__heading">
 					<h2 class="intro__title">
 						8 способов борьбы со страхом чистого листа
 					</h2>
 					<time class="intro__date" datetime="2022-06-05">05.06.2022 г.</time>
 				</header>
-				<p class="intro__main-text">
-					Начинать что-то новое — тяжело и страшно. Даже если это просто
-					небольшой фрагмент кода. Или текст. Например, прежде чем написать
-					здесь что-то вразумительное, автор(ка) этого материала заварила чай,
-					позвонила бабушке узнать, как поживают на даче огурцы с помидорами
-					(окей, это правда важно), 10 минут ходила туда-сюда по комнате,
-					протёрла пыль на столе и заварила чай ещё раз, потому что он остыл.
-					Всё это время с монитора на неё смотрел чистый лист.
-				</p>
-				<p class="intro__main-text">
-					Прокрастинировать перед тем, как начать что-то делать (особенно что-то
-					новое) — нормальная реакция мозга. Разберёмся, почему это происходит.
-				</p>
+				<div class="intro__main-text">
+					<p>
+						Начинать что-то новое — тяжело и страшно. Даже если это просто
+						небольшой фрагмент кода. Или текст. Например, прежде чем написать
+						здесь что-то вразумительное, автор(ка) этого материала заварила чай,
+						позвонила бабушке узнать, как поживают на даче огурцы с помидорами
+						(окей, это правда важно), 10 минут ходила туда-сюда по комнате,
+						протёрла пыль на столе и заварила чай ещё раз, потому что он остыл.
+						Всё это время с монитора на неё смотрел чистый лист.
+					</p>
+					<p>
+						Прокрастинировать перед тем, как начать что-то делать (особенно
+						что-то новое) — нормальная реакция мозга. Разберёмся, почему это
+						происходит.
+					</p>
+				</div>
 			</section>
-			<section class="content-section content-section_theme_bright reasons">
+			<section class="reasons content-section content-section_theme_bright">
 				<header>
 					<h3 class="content-section__subtitle">
 						<span class="accent-span text-right">Почему чистый лист</span>
@@ -116,7 +114,7 @@
 					</li>
 				</ul>
 			</section>
-			<section class="content-section content-section_theme_dark how-to">
+			<section class="how-to content-section content-section_theme_dark">
 				<header>
 					<h3 class="content-section__subtitle text-white">
 						<span class="accent-span text-right">Как всё-таки начать</span>
@@ -133,24 +131,24 @@
 							<div class="card__author">
 								<img
 									class="card__author-photo"
-									width="100"
-									height="100"
-									src="images/polyarinov.png"
-									alt="Имя автора"
+									src="./images/polyarinov.png"
+									alt="Алексей Поляринов"
 								/>
 								<p class="card__author-name">Алексей Поляринов</p>
 							</div>
 							<div class="card__content">
 								<h4 class="card__title">Начать любыми словами</h4>
-								<p class="card__text">
-									Любыми — без шуток. Если не верите нам, посмотрите, например,
-									чем открывается эссе Алексея Поляринова «Чарли Кауфман:
-									расширение пространства». Можно и менее радикально. Главное,
-									чтобы пустую страницу начали заполнять символы. Получится
-									своеобразная ловушка для мозга: он видит, что вы уже начали
-									что-то делать, и ему становится легче войти в состояние
-									потока.
-								</p>
+								<div class="card__text">
+									<p>
+										Любыми — без шуток. Если не верите нам, посмотрите,
+										например, чем открывается эссе Алексея Поляринова «Чарли
+										Кауфман: расширение пространства». Можно и менее радикально.
+										Главное, чтобы пустую страницу начали заполнять символы.
+										Получится своеобразная ловушка для мозга: он видит, что вы
+										уже начали что-то делать, и ему становится легче войти в
+										состояние потока.
+									</p>
+								</div>
 							</div>
 						</article>
 					</li>
@@ -178,7 +176,7 @@
 									class="card__author-photo"
 									width="100"
 									height="100"
-									src="images/bunin.png"
+									src="./images/bunin.png"
 									alt="Имя автора"
 								/>
 								<p class="card__author-name">Иван Бунин</p>
@@ -201,11 +199,11 @@
 				</ul>
 			</section>
 		</main>
-		<footer class="content-section content-section_theme_dark footer">
+		<footer class="footer content-section content-section_theme_dark">
 			<p class="footer__copy">© VЁRSTKA</p>
 			<ul class="footer__links">
-				<li><a class="footer__link" href="#0">ВК</a></li>
-				<li><a class="footer__link" href="#0">Ютуб</a></li>
+				<li><a href="#0">ВК</a></li>
+				<li><a href="#0">Ютуб</a></li>
 			</ul>
 		</footer>
 	</body>
