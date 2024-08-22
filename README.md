@@ -10,3 +10,6 @@
 [![Разбор проекта «С чистого листа»](https://img.youtube.com/vi/9IjcYdOY5Po/0.jpg)](https://youtu.be/9IjcYdOY5Po?si=M52SwwD5qF0JgJhm)
 
 _Смотрите видео, чтобы узнать больше о лучших практиках в вёрстке и как их применить к вашим проектам._
+
+## Макет проекта в Figma
+[Посмотреть макет проекта «С чистого листа» в Figma](https://www.figma.com/file/vYJfYCZUddsUQUCYUktcID/%231-%D0%A1-%D1%87%D0%B8%D1%81%D1%82%D0%BE%D0%B3%D0%BE-%D0%BB%D0%B8%D1%81%D1%82%D0%B0/duplicate)
